@@ -124,6 +124,7 @@ Game::Game( MainWindow& wnd )
 	rng(std::random_device() ()),
 	snake({2,2}),
 	goal(rng, brd, snake)
+	// comment added.
 {
 }
 
